@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    background-color: #1F2937;
+}
+h1{
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+ul{
+    display: flex;
+    padding: 0;
+    gap: 16px;
+}
+a:link,
+a:hover,
+a:visited{
+    text-decoration: none;
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
